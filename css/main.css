@@ -1,0 +1,226 @@
+/***BASE***/
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: #E8E8E6;
+}
+
+/***GRID***/
+.full-width {
+    width: 100%;
+    margin: 10px 10px;
+    overflow: auto;
+}
+.half-width {
+    width: 750px;
+    overflow: auto;
+    float: left;
+}
+.third-width {
+    width: 450px;
+    height: 120px;
+    overflow: auto;
+    float: left;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+p {
+    font-family: 'Lato', sans-serif;;
+}
+
+/***HEADER***/
+header {
+    color: white;
+    height: 450px;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header h1 {
+   font-size: 25px;
+   margin-left: 20px;
+}
+
+.purple {
+    color: #915db4;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+
+.blue {
+    color: #89ddff;
+}
+
+.name {
+    color: #c3e88d;
+    text-transform: capitalize;
+}
+
+.title {
+    font-weight: lighter;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+nav {
+     float: right;       
+}
+
+nav ol {
+     margin-top: 30px;
+     margin-right: 50px
+}
+
+nav ol li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+nav ol li a:link {
+    color: white
+}
+
+nav ol li a:visited {
+    color:#89ddff
+}
+
+nav ol li a:hover {
+    color:#915db4
+}
+
+header h2 {
+    padding: 100px 75px 100px 200px;
+    margin: 50px 0px 50px 100px;
+    font-size: 35px;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Lato', sans-serif;
+}
+
+header span {
+    text-transform: uppercase;
+}
+
+.amazing {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 75px;
+    text-transform: none;
+    color: #d8a74c;
+}
+
+/***MAIN***/
+main {
+    color:black;
+    margin-top: 90px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.rogue {
+    margin: 0px auto;
+
+}
+
+.rogue img {
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.rogue-des {
+    padding-top: 50px;
+    margin-right: 165px;
+}
+
+/***JUBILEE***/
+.jubilee {
+    margin: 60px auto;
+}
+
+.jubilee img {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+
+.jub-des {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 95px;
+    margin-top: 85px;
+}
+
+.about {
+    background-image: url('../img/journal.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px 20px 50px 20px;
+}
+
+.about h3 {
+    margin-left: 80px;
+    margin-top: 0px;
+}
+
+.about p {
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.connect {
+    display: inline-block;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.connect h2 {
+    margin-left: 130px;
+}
+
+#hire p {
+    margin-bottom: 0px;
+}
+
+.third-width img {
+    width: 30px;
+    height: 30px;
+}
+
+#follow {
+    display: inline-block;
+    margin: 0px 30px;
+    text-align: center;
+}
+
+#follow h2 {
+    margin-bottom: 35px;
+}
+
+#follow h4 {
+    padding-left: 5px;
+}
+
+#follow ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#follow ul li a {
+    text-decoration: none;
+    list-style: none;     
+}
+
+footer {
+    text-align: center;
+    font-size:smaller;
+}
